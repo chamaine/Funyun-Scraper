@@ -1,0 +1,58 @@
+   
+  /*navigation*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+body { background-color: #F2F6D0 }
+  #wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+  #articles {
+    display: inline-block;
+    overflow: auto;
+    width: 60%;
+    height: 700px;
+  }
+  #notes {
+    float: right;
+    width: 30%;
+  }
+  textarea, input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+  }
+  input {
+    height: 36px;
+    font-size: 24px;
+  }
+  textarea {
+    height: 200px;
+    font-size: 18px;
+  }
